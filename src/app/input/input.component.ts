@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InputComponent implements OnInit {
 
-  username = "plop";
+  username = "";
   
 
   constructor() { 

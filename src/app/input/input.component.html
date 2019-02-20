@@ -4,5 +4,6 @@
   [(ngModel)] = "username">
 <p>{{username}}</p>
 <button 
-class="btn btn-primary"
-(click)="onClickage()">Click Me!</button>
+  class="btn btn-primary"
+  [disabled] = "username === ''"
+  (click)="onClickage()">Click Me to Reset!</button>
